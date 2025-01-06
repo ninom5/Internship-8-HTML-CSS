@@ -1,14 +1,17 @@
 * {
   margin: 0;
 }
+
 header {
   color: white;
 }
+
 body {
   background-color: black;
   font-family: Arial, sans-serif;
   margin: 0;
 }
+
 nav {
   width: 200px;
   margin: auto;
@@ -28,10 +31,12 @@ nav ul li a {
   text-decoration-color: blueviolet;
   color: blueviolet;
 }
+
 a {
   color: purple;
   text-decoration-color: aqua;
 }
+
 h1 {
   font-size: 3em;
   text-align: center;
@@ -41,12 +46,15 @@ h1 {
 h2 b {
   font-size: 1.5em;
 }
+
 .page-text {
   font-size: 1.5em;
 }
+
 hr {
   border-color: orange;
 }
+
 span {
   font-size: 20px;
   font-family: monospace;
@@ -67,9 +75,11 @@ div {
 .third-container {
   border: 10px solid orange;
 }
+
 img {
   margin-bottom: 20px;
 }
+
 footer {
   margin-top: 10px;
   color: white;

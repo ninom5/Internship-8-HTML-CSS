@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>HTML ONLY</title>
+  </head>
+  <body>
+    <header>
+      <h1>HTML Only</h1>
+    </header>
+    <main>
+      <hr />
+      <div class="first-container">
+        <h2><b>What is this?</b></h2>
+        <p>
+          This page was inspired by a
+          <a href="https://twitter.com/whitep4nth3r/status/1510568114966171649"
+            >tweet from Salma</a
+          >
+          . Pretty HTML only pages are difficult to make well, and accessible.
+          But here we are. I'm trying my best.
+        </p>
+      </div>
+      <hr />
+      <div class="second-container">
+        <h2><b>How does this work?</b></h2>
+        <p>
+          The key to a lot of this is leveraging using tables with a
+          role="presentation" attribute to make decorated sections without css.
+          If you view source on the page, you'll see that there are a LOT of
+          tables. The table tag typically is used to display tabular data and
+          should NOT be used as a layout method. However, since I am not allowed
+          to use CSS, I am pretty much exclusively relying on tables for this
+          purpose. The presentation role tells the browser to not expose the
+          table and its tabluar children in the accessibility tree. This will
+          make it easier to navigate for assistive technology. I'm also
+          leveraging some deprecated HTML elements from HTML 3.2 that you should
+          never use. In order to be "compliant", I've added the HTML 3.2 doctype
+          at the top of the page:
+          <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+          This helps give a hint to the browser that we are going to use some
+          older stuff. HOWEVER, I'm also using some newer things such as
+          details/summary, section, main, header, and footer. So I'm just making
+          a mess of my doctype and what I should be actually using!
+        </p>
+      </div>
+      <hr />
+      <div class="third-container">
+        <h2>But Why?</h2>
+        <img src="https://c.tenor.com/KjJTBQ9lftsAAAAd/why-huh.gif" alt="gif" />
+        <p>
+          I make terrible things. This was an exciting
+          <a href="https://xkcd.com/356/">nerd snipe </a> on a sunday, And I
+          took up the challenge!
+        </p>
+      </div>
+      <hr />
+    </main>
+    <footer>
+      Created by <a href="https://alexriviere.com/">Alex Riviere</a>
+
+      <marquee behavior="sliding" direction="left"
+        >(One marquee for good measure...)</marquee
+      >
+    </footer>
+  </body>
+</html>

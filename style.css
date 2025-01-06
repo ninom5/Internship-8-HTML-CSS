@@ -1,0 +1,42 @@
+header {
+  color: white;
+}
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+h2 {
+  font-size: 1.5em;
+}
+p {
+  font-size: medium;
+}
+a {
+  color: blue;
+  text-decoration-color: aqua;
+}
+hr {
+  border-color: orange;
+}
+div {
+  background-color: antiquewhite;
+  padding: 10px;
+}
+.first-container {
+  border: 10px solid rgb(217, 125, 217);
+}
+.second-container {
+  border: 10px solid cyan;
+}
+.third-container {
+  border: 10px solid orange;
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
